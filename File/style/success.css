@@ -1,0 +1,74 @@
+
+.navbar{
+    width: 1440px;
+    height: 70px;
+    background: #010101;
+}
+
+.nav-brand {
+    margin-left: 70px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+
+    color: #FFFFFF;
+
+}
+
+
+body{
+    background-color: #010101;
+}
+
+.success{
+    padding-top: 15px;
+    margin-top: 72px;
+    width: 615px;
+    height: 622px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.finish{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.suc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.btn-submit{
+    margin-top: 58px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+    width: 192px;
+    height: 40px;
+    text-align: center;
+    background: #010101;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btn-submit:hover{
+    transform: scale(1.1);
+}

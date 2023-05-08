@@ -1,0 +1,205 @@
+
+
+/* Navbar */
+.nav-brand {
+    margin-left: 70px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+
+    color: #FFFFFF;
+
+}
+
+.nav-brand:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a {
+    margin-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.search{
+    margin-left: 17px;
+    background: #323232;
+    width: 50px;
+    height: 27px;
+    display: flex;
+    border-radius: 9px;
+}
+
+form input{
+    border-radius: 9px;
+    background: #323232;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+form span{
+    align-self: center;
+    padding: 2px 3px;
+    color: #FFFFFF;
+    size: 20px;
+}
+
+.btn-dark {
+    margin-right: 70px;
+    width: 169px;
+    height: 40px;
+    background: linear-gradient(170.91deg, #323232 6.9%, rgba(24, 24, 24, 0) 202.58%);
+    filter: drop-shadow(0px 4px 9px rgba(255, 255, 255, 0.12));
+    border-radius: 40px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Tutup Navbar */
+
+.detail-bg{
+    position: relative;
+}
+
+.button-order{
+    position: absolute;
+    left: 90px;
+    top: 412px;
+    transition: all 0.2s ease;
+}
+
+.button-order:hover{
+    transform: scale(1.1);
+}
+
+/* spesifikasi */
+
+.spesifikasi{
+    padding-bottom: 147px;
+    background: #1A1A1A;
+    padding-top: 194px;
+    padding-left: 100px;
+}
+
+
+.grs-hr{
+    margin-left: -3px !important;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    width: 1260px;
+    height: 0px;
+    border: 1px solid #ffffff;
+}
+
+.spek-var{
+    padding-top: -30px !;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+
+}
+
+.spek-p{
+    margin-left: 182px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.spek-p span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #E6E6E6;
+}
+
+/* tutup spesifikasi */
+
+
+/* Footer */
+.footer {
+    width: 1440px;
+    height: 332px;
+    background: #010101;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+.footer-brand {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+
+    color: #FFFFFF;
+}
+
+.footer-list h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+.footer-brand:hover{
+    transform: none;
+    transition: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-list a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.copyright{
+    width: 1440px;
+    height: 46px;
+    background: #010101;
+    padding-top: 12px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+/* Tutup Footer */
